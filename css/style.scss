@@ -296,6 +296,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     min-height: 100vh;
     padding-top: 27vh;
     padding-bottom: 70px;
+    @media (max-width: 600px) {
+        padding-top: 16vh;
+    }
 
     &__title {
         font-size: 55px;
@@ -365,6 +368,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         height: 30px;
         left: 0;
         top: -15px;
+    }
+    &__container {
+        position: relative;
+        z-index: 1;
     }
 
     &__img-bg {
