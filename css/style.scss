@@ -358,6 +358,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         padding-top: 0;
     }
 
+    .overlap {
+        position: absolute;
+        background-color: #FFF5E8;
+        width: 100%;
+        height: 30px;
+        left: 0;
+        top: -50%;
+    }
+
     &__img-bg {
         position: absolute;
         left: 0;
