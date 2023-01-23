@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 $blackColor: #605F5F;
+$blackColor2: #454545;
 
 //Адаптив, начинающийся с определенной ширины (с ширины ограничивающего контейнера, как правило)
 @mixin adaptiveAllCont($adaptProperty, $maxSize, $minSize, $maxContainer, $minMob) {
@@ -382,7 +383,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     &__title {
         font-weight: 700;
-        color: #454545;
+        color: $blackColor2;
         text-align: center;
     }
     &__advant-wrp {
@@ -421,6 +422,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
             text-align: center;
             line-height: 1.3;
             margin-top: 10px;
+            color: $blackColor2;
             @media (max-width: 600px) {
                 font-size: 16px;
             }
@@ -443,6 +445,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         max-width: 540px;
         p {
             font-size: 20px;
+            color: $blackColor2;
             @media (max-width: 940px) {
                 text-align: center;
             }
@@ -457,6 +460,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         font-weight: 600;
         line-height: 1.2;
         margin-bottom: 15px;
+        color: $blackColor2;
         @include adaptiveAllCont('font-size', 24, 18, 1310, 320);
         @media (max-width: 940px) {
             text-align: center;
