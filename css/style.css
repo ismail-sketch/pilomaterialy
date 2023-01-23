@@ -413,12 +413,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 70px;
 }
 
-@media (max-width: 600px) {
-  .main {
-    padding-top: 23vh;
-  }
-}
-
 .main__title {
   font-size: 55px;
   font-weight: 700;
