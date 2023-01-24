@@ -639,6 +639,7 @@ h1, h2, h3, h4, h5, h6 {
 .woodAdvant__text p {
   font-size: 20px;
   color: #454545;
+  line-height: 1.2;
 }
 
 @media (max-width: 940px) {
